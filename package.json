@@ -1,0 +1,24 @@
+{
+  "name": "lru-cache",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "files": [
+    "lib"
+  ],
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc; rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^2.0.1",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^1.19.1",
+    "rollup": "^1.27.8",
+    "typescript": "^3.7.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationDir": "lib",
+    "emitDeclarationOnly": true,
+    "target": "es2019",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "es6"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
